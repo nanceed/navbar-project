@@ -203,15 +203,15 @@ nav {
     display: none;
 }
 
-/*.links {
-    height: 0;
+.links {
+  height: 0;
   overflow: hidden;
   transition: var(--transition);  
 }
 
 .show-links {
     height: 10rem;
-} */
+} 
 
 @media screen and (min-width: 800px) {
     .nav-center {
@@ -229,6 +229,7 @@ nav {
         display: none;
     }
     .links {
+        /* important to add */
         height: auto;
         display: flex;
     }
